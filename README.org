@@ -1,0 +1,30 @@
+#+TITLE: DMENU customization
+
+This is my [[https://tools.suckless.org/dmenu/][dmenu]] configuration with /no manual editing required for builds on BSD platforms/.
+
+* Customization
+
+- Patches: [[https://tools.suckless.org/dmenu/patches/border/][border]], [[https://tools.suckless.org/dmenu/patches/center/][center]], [[https://tools.suckless.org/dmenu/patches/xresources/][xresources]]
+- Additional =mk= files to allow building transparently on both Linux and BSD (NetBSD, OpenBSD and FreeBSD).
+
+* Requirements
+
+The package names vary for Linux.
+
+Under a debian-like distributions, please run the following:
+
+#+begin_src sh
+  sudo apt install build-essential \
+       libx11-dev \
+       libxft-dev \
+       libxinerama-dev \
+       libfreetype6-dev \
+       libfontconfig1-dev
+#+end_src
+
+* Installation
+
+#+BEGIN_SRC sh
+  make && sudo cp st /usr/local/bin
+#+END_SRC
+
