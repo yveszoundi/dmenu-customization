@@ -9,7 +9,7 @@ This is my [[https://tools.suckless.org/dmenu/][dmenu]] configuration with /no m
 
 * Requirements
 
-The package names vary for Linux.
+The package names vary for depending on the Linux that you're using.
 
 Under a debian-like distributions, please run the following:
 
@@ -22,9 +22,15 @@ Under a debian-like distributions, please run the following:
        libfontconfig1-dev
 #+end_src
 
+* Screenshot
+
+Below is a /dmenu/ screenshot with "red-ish" =.Xresources= theme (See the =Xresources.example= file).
+
+[[./screenshot.png]]
+
 * Installation
 
 #+BEGIN_SRC sh
-  make && sudo cp st /usr/local/bin
+  sudo make install
 #+END_SRC
 

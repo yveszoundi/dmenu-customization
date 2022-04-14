@@ -1,0 +1,63 @@
+! black
+#define COLOR0  #23100e
+#define COLOR8  #5a4b4a
+! red
+#define COLOR1  #c11402
+#define COLOR9  #c11402
+! green
+#define COLOR2  #c7311b
+#define COLOR10 #c7311b
+! yellow
+#define COLOR3  #c73202
+#define COLOR11 #c73202
+! blue
+#define COLOR4  #c75121
+#define COLOR12 #c75121
+! magenta
+#define COLOR5  #c87c1f
+#define COLOR13 #c87c1f
+! cyan
+#define COLOR6  #c79441
+#define COLOR14 #c79441
+! white
+#define COLOR7  #c8c3c2
+#define COLOR15 #c8c3c2
+
+*.opacity:  0.87 
+*.borderpx: 1
+
+! special
+*.foreground:  COLOR7
+*.background:  COLOR7
+*.cursorColor: COLOR7
+
+*.color0:  COLOR0
+*.color1:  COLOR1
+*.color2:  COLOR2
+*.color3:  COLOR3
+*.color4:  COLOR4
+*.color5:  COLOR5
+*.color6:  COLOR6
+*.color7:  COLOR7
+*.color8:  COLOR8
+*.color9:  COLOR9
+*.color10: COLOR10
+*.color11: COLOR11
+*.color12: COLOR12
+*.color13: COLOR13
+*.color14: COLOR14
+*.color15: COLOR15
+
+dwm.normbgcolor:     COLOR0
+dwm.normbordercolor: COLOR2
+dwm.normfgcolor:     COLOR15
+dwm.selbgcolor:      COLOR1
+dwm.selbordercolor:  COLOR0
+dwm.selfgcolor:      COLOR15
+
+st.termname: xterm-256color
+
+dmenu.background:    COLOR0
+dmenu.foreground:    COLOR15
+dmenu.selbackground: COLOR1
+dmenu.selforeground: COLOR15
